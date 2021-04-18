@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #333;
+  background-color: #eee;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+}
+.nav-linx {
+  color: #eee;
+  background-color: #333;
+  padding: 1em;
+  display: flex;
+  list-style: none;
+}
+.nav-linx a {
+  text-decoration: none;
+  color: #eee;
+  margin-right: 5px;
+}
+.nav-linx a:hover {
+  color: #3185b0;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.land {
+  margin: 3em auto;
+  padding: 1em 0.6em;
+}
+img {
+  width: 200px;
+  border: 3px solid #888;
+  border: 5px solid #3185b0;
+  border-radius: 50%;
+}
+.land h1 {
+  font-size: 40px;
+}
+.h-line {
+  border-bottom: 3px solid #aaa;
+}
+.land h3 {
+  color: #236c92;
+  margin-top: 0.4em;
+  text-transform: lowercase;
+}
+.info {
+  color: #eee;
+  background-color: #333;
+
+  border: 5px solid #3185b0;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.info p {
+  font-weight: 800;
+  font-size: 26px;
+}
+.info ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 1em;
+}
+.info li {
+  list-style: none;
+  border: 1px solid #333;
+  padding: 1em;
+}
+.info li:hover {
+  border: 1px solid #3185b0;
+  color: #eee;
+  background-color: #3185b0;
+}
